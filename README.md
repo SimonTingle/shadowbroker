@@ -199,7 +199,7 @@ The first decentralized intelligence communication and governance layer built di
 
 **Communication layer (since v0.9.6):**
 
-* **InfoNet Experimental Testnet** — A global, obfuscated message relay. Anyone running ShadowBroker can transmit and receive on the InfoNet. Messages pass through a Wormhole relay layer with gate personas, Ed25519 canonical payload signing, and transport obfuscation.
+* **InfoNet Experimental Testnet** — A global, obfuscated message relay using Tor and Reticulum. Anyone running ShadowBroker can transmit and receive on the InfoNet. Messages pass through a Wormhole relay layer with gate personas, Ed25519 canonical payload signing, and transport obfuscation.
 * **Mesh Chat Panel** — Three-tab interface: **INFONET** (gate chat with obfuscated transport), **MESH** (Meshtastic radio integration), **DEAD DROP** (peer-to-peer message exchange with token-based epoch mailboxes — strongest current lane).
 * **Gate Persona System** — Pseudonymous identities with Ed25519 signing keys, prekey bundles, SAS word contact verification, and abuse reporting.
 * **Mesh Terminal** — Built-in CLI: `send`, `dm`, market commands, gate state inspection. Draggable panel, minimizes to the top bar. Type `help` to see all commands.
